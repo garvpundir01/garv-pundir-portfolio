@@ -51,3 +51,27 @@ footer {
   width: 100%;
   bottom: 0;
 }
+
+nav ul li a.active {
+  color: #00bcd4;
+  border-bottom: 2px solid #00bcd4;
+}
+
+.content {
+  max-width: 900px;
+  margin: 80px auto;
+  padding: 20px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.project {
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 15px;
+  padding-bottom: 15px;
+}
+
+.project:last-child {
+  border-bottom: none;
+}
